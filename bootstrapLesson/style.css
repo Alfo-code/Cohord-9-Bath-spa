@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(50, 100, 126);
+    color: aliceblue;
+}
+
+.btn-color {
+    background-color: rgb(68, 190, 68);
+    color: rgb(152, 27, 27);
+    font-weight: bold;
+}
+
+.carousel {
+    width:640px;
+    height:auto;
+    
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .story {
+    font-style: italic;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+  }
