@@ -1,0 +1,9 @@
+#custom-body.dark-mode {
+    background-color: gray;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}

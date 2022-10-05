@@ -1,0 +1,28 @@
+body {
+    background-color: azure;
+    text-align: center;
+    color: rgb(10, 13, 73);
+}
+
+.container {
+    width: 375px;
+    height: 525px;
+    margin: auto;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(10, 13, 73);
+    color: #fff;
+    font-size: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(25, 31, 152);
+}
