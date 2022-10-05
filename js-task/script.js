@@ -1,15 +1,13 @@
-let fValue = document.getElementById("fNum").value;
-let sValue = document.getElementById("sNum").value;
+
+function sum() {
+ 
+  let fValue = document.getElementById("fNum").value;
+  let sValue = document.getElementById("sNum").value;
+
+  let result = (fValue * 1) + (sValue * 1);
 
  
-function sum(fValue, sValue) {
-  let value1 = fValue;
-  let value2 = sValue;
-  
-  const result = value1 + value2;
-
- 
-
+console.log("fValue");
 
 document.getElementById("results").innerHTML = result;
 
