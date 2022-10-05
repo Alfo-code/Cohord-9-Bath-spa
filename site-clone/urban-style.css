@@ -99,9 +99,25 @@ body {
 }
 
 #btn {
-    background-color: blueviolet;
+    background: linear-gradient(rgba(93, 93, 229, 0.995), rgb(227, 172, 181));
     color: white;
     height: 40px;
     width: auto;
     padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Dark Mode */
+
+.wrapper.dark-mode {
+    filter: invert(80%);  
+}
+
+#btn-dark {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 7%;
+    cursor: pointer;
 }
