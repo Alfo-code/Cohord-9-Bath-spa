@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(rgb(40, 54, 255), rgb(3, 221, 221));
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(206, 142, 22);
+}
+
+.container {
+    display: grid;
+    height: 90vh;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.items {
+    background-color: rgb(76, 0, 255);
+    border-radius: 20px;
+    border: 2px solid blanchedalmond;
+    
+}
+
+.items:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.pizza {
+    background: url(./images/pizza.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+.napoli {
+    background: url(./images/SSC_Napoli.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+.linkin_park {
+    background: url(./images/linkin_park.jpg) center no-repeat;
+    background-size: cover;
+    grid-row-start: span 2;
+}
+
+.dragon_ball {
+    background: url(./images/dbz.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.car {
+    background: url(./images/Lamborghini-Aventador-Ultimae.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.text {
+    grid-column-start: span 3;
+    font-weight: bold;
+    color: rgb(127, 83, 2);
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items {
+        width: 80vh;
+        height: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+   body {
+    background: radial-gradient(circle, rgb(51, 44, 187) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 100%);
+   }
+}
