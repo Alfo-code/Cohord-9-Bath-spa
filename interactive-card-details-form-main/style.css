@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+    --White_bg: hsl(0, 0%, 100%);
+    --Light_grayish_violet: hsl(270, 3%, 87%);
+    --Dark_grayish_violet: hsl(279, 6%, 55%);
+    --Very_dark_violet: hsl(278, 68%, 11%);
+
+}
+
+body {
+    /* background-color: var(--Very_dark_violet); */
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/* Cards */
+
+.cards {
+    color: white;
+    text-align: center;
+    width: 40%;
+    
+}
+.card-front {
+    background: url(./images/bg-card-front.png) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.card-back {
+    background: url(./images/bg-card-back.png) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+
+/* form */
+
+.form-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    
+    
+}
+
+.card-field__wrapper {
+    display: flex;
+    
+}
+
+.exp-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.mmyy {
+    display: flex;
+    gap: 10px;
+}
+
+.label_cvc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+   
+}
+
+
+
+
+.submission {
+    display: none;
+}

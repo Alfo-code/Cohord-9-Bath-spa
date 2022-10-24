@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+  <aside class="cards">
+
+    <!-- Card- Front -->
+    <div class="card-front">
+
+      <div> 0000 0000 0000 0000</div>
+      <span> Jane Appleseed</span>
+      <span> 00/00</span>
+    </div>
+
+    <!-- Card- Back -->
+
+    <div class="card-back">
+
+      <span>000</span> 
+    </div>
+  </aside>
+
+  <!-- Form start -->
+  <form>
+    <fieldset class="form-container">
+      <label for="name">Cardholder Name</label>
+      <input type="text" placeholder="e.g. Jane Appleseed">
+      <label for="card-number">Card Number</label>
+      <input type="number" placeholder="e.g. 1234 5678 9123 0000">
+      <!-- Card detail -->
+        <div class="card-field__wrapper">
+          <div class="exp-card">
+            <label for="exp-date"> Exp. Date (MM/YY)
+              <div class="mmyy">
+                <input type="text" placeholder="MM">
+                <input type="text" placeholder="YY">
+              </div>
+            </label>
+          </div>
+        
+          <label for="cvc" class="label_cvc">CVC
+            <input type="number" placeholder="e.g. 123">
+          </label>
+        
+        </div>
+     
+
+      <button type="submit" class="submit-btn">Confirm</button>
+    </fieldset>
+  </form>
+
+  <!-- Form End -->
+
+  <!-- Completed state start -->
+  <div class="submission">
+  Thank you!
+  We've added your card details
+  Continue
+  </div>
+  
+  
+</body>
+</html>
